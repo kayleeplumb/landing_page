@@ -1,0 +1,170 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* navigation */
+.navigation {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 32px;
+}
+
+.navigation .logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+/* hero */
+.hero {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.hero .title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero .subtext {
+    max-width: 400px;
+    margin-top: 10px;
+}
+
+.hero .image {
+    justify-content: center;
+    align-items: center;
+    padding: 80px 120px;
+    background-color: gray;
+    flex: 0;
+    max-width: 80px;
+    max-height: 120px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+    font-weight: 700;
+    border: none;
+    margin-top: 10px;
+}
+
+/* content */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 36px;
+}
+
+.content .illustrations {
+    display: flex;
+    max-width: 200px;
+    justify-content: center;
+    gap: 32px;
+}
+
+.illustrations .image {
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.illustrations .subtext {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* quote */
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 150px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote .signature {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+/* action */
+.action {
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px 80px;
+    margin: 50px;
+    color: white;
+    gap: 50px;
+}
+
+.action .sign-up {
+    border: 2px solid white;
+}
+
+.action .text {
+    font-weight: bold;
+}
+
+.action .subtext {
+    font-size: 12px;
+}
+
+/* footer */
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 32px;
+    text-align: center;
+}
